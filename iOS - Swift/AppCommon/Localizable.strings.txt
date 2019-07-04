@@ -1,0 +1,145 @@
+//***********Input fields************
+"please_login" = "Please login for further use of app";
+
+"enter_email" = "Please enter email address.";
+"invalid_email" = "Invalid email address.";
+
+"enter_password" = "Please enter password.";
+"password_min_char" = "Please must be %@ charecters long.";
+"enter_old_password" = "Please enter old password.";
+"enter_new_password" = "Please enter new password.";
+"repeat_new_password" = "Please repeat new password";
+"old_password_and_new_password_must_not_be_same" = "Sorry new password must not be same as current one.";
+"repeat_new_password_error" = "Sorry the password you input doesn't match.";
+
+"enter_prefer_name" = "Please enter prefer name.";
+
+"enter_first_name" = "Please enter first name.";
+
+"enter_last_name" = "Please enter last name.";
+
+"enter_DOB" = "Please enter Date of Birth.";
+"DOB_invalid" = "Invalid Date of Birth";
+
+"enter_mobile_number" = "Please enter mobile number.";
+"mobile_number_invalid" = "Invalid mobile number.";
+
+"sms_code_invalid" = "Please verify your mobile number.";
+
+"select_licence_image" = "Please select licence image";
+
+"not_scan_card" = "Can't read card with Camera, please fill up details";
+"fill_remaining_fields" = "Please fill up remaining details";
+"scan_card" = "Please scan your card";
+"enter_card_number" = "Please enter card number";
+"invalid_card_number" = "Invalid card number";
+"enter_card_name" = "Please enter name on card";
+"enter_card_exp_date" = "Please enter expiry date";
+"invalid_card_exp_date" = "Invalid expiry date";
+"enter_CVV" = "Please enter CVV.";
+"invalid_CVV" = "Invalid CVV.";
+
+"select_from_time" = "Please select From time";
+"select_to_time" = "Please select To time";
+"invalid_from_to_time" = "Please set 'To time' higher than 'From time'";
+"conflict_from_to_time" = "The time range you entered is conflict with an existing one.";
+"select_question_type" = "Please select question type";
+"enter_question" = "Please enter your question";
+
+//***********TableView HeaderView************
+//Setting Module
+"card_not_found" = "Please link your card";
+"vouchers_not_found" = "No available Voucher";
+"notificationSetting_not_found" = "No available notification setting";
+"myAddresses_not_found" = "Please add your address";
+"searchAddresses_not_found" = "Address not found";
+"preferred_pickup_times_not_found" = "Please set your preferred pickup times";
+//Home Module
+"search_result_not_found" = "No Search result found";
+"recent_search_result_not_found" = "No Recent Search";
+"promoted_item_not_found" = "No Promoted Item found";
+"favourite_result_not_found" = "No favourite item found";
+"get_favourite_login_error" = "Please login to get your favourites";
+//Booking Module
+requesting_not_found
+//***********API CALL string************
+
+"something_went_wrong" = "Oops! Something went wrong. Please try again";
+"something_went_wrong_title" = "Uh-oh! Something went wrong";
+
+//LoginSignupService
+"login_error" = "Wrong email or password";
+
+"register_success" = "You registered successfully";
+"register_error" = "Please check your details";
+
+"get_user_error" = "Error in fetching your detail";
+
+"get_user_agreement_error" = "Error in fetching User Agreement.";
+
+
+//ProfileService
+
+"upload_avatar_error" = "Error in uploading your avatar";
+"upload_avatar_success" = "Your profile pic set successfully";
+
+"reset_avatar_success" = "Reset avatar successfully";
+"reset_avatar_error" = "Error in reseting avatar";
+
+"update_password_error" = "Error in changing your password.";
+"update_password_success" = "Your password has been changed";
+
+"verify_mobile_error" = "Error in Mobile verification";
+"register_mobile_error" = "Error in Mobile registeration";
+"upload_photo_error" = "Error in uplaoding photo";
+"verify_request_error" = "Error in User verification";
+
+
+//SettingService
+"get_other_data" = "Error in getting your %@.";
+
+"update_notiofication_setting_error" = "Error in updating Settings";
+"udpate_notiofication_setting_success" = "Notification settings updated";
+
+"link_card_error" = "Verification fail, please check your card details";
+"link_card_success" = "Verification successful!";
+"delete_card_error" = "Error in deleting card" ;
+
+"search_address_error" = "Error in searching address.";
+"add_address_success" = "Address added successfully";
+"add_address_error" = "Error in adding Address";
+"set_as_default_address_error" = "Error in setting as default address";
+"set_as_billing_address_error" = "Error in setting as billing address";
+"delete_address_error" = "Error in deleting address";
+
+"set_auto_accept_request_error" = "Error in setting auto accept request";
+"add_available_times_error" = "Error in adding available times";
+"delete_available_times_error" = "Error in deleting available times";
+
+"send_question_error" = "Error in sending your question";
+"send_question_success" = "Your query has been sent";
+
+
+//FavouriteService
+"get_favourite_error" = "Error in getting your favourites";
+
+
+
+//Home
+"get_search_error" = "Error in getting search result";
+
+"set_favourite_error" = "Error in making your favourite item";
+"del_favourite_error" = "Error in deleting your favourite item";
+
+"get_brake_types_error" = "Error in getting brake types";
+"get_connector_types_error" = "Error in getting connector types";
+
+//MARK:- Booking
+"get_booking_error" = "Error in getting booking";
+
+//MARK: -ios3
+"Login_Alert_title" = "Please login !!!";
+"Pending_Alert_title" = "Please verify your account prior posting";
+"Pending_Alert_msg" = "You will be redirect to verify process.";
+"Delete_Post_alert_title" = "Are you sure want to delete it?";
+"Delete_Post_alert_msg" = "you can pause it if you still want to share it in the future.";
